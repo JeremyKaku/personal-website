@@ -1,2 +1,2 @@
-# CS5610
-CS5610 Course Repo
+# CS5600
+CS5600 Course Repo
