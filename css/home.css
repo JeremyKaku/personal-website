@@ -1,0 +1,70 @@
+.home-content {
+    position: relative;
+    top: 20%;
+}
+
+.home-content h1 {
+    max-width: 100%;
+    font-size: 6vw;
+    font-weight: 700;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 0;
+    animation-duration: 3s;
+}
+
+.home-content h2 {
+    color: white;
+    width: fit-content;
+    max-width: 80%;
+    font-size: 3vw;
+    margin-top: 5%;
+    margin-left: 10%;
+    animation: fadeIn 3s ease-in-out;
+}
+
+.specialize {
+    color: #0c66c2;
+    font-size: 4vw;
+    font-family: cursive, fantasy, sans-serif;
+    animation: highlight 2s infinite;
+}
+
+.home-content p {
+    margin-top: 0;
+    max-width: 80%;
+    color: #CCCCCC;
+    font-size: 1.5vw;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    line-height: 1.5;
+    animation: fadeIn 3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes highlight {
+    0% {
+        color: white;
+    }
+
+    50% {
+        color: #0c66c2;
+    }
+
+    100% {
+        color: white;
+    }
+}
+
+.fade-in-text {
+    animation: fadeIn 2s ease-in-out;
+}
