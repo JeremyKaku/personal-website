@@ -121,7 +121,7 @@ p {
 .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 10px;
     padding: 20px;
     margin-top: 5%
 }
@@ -159,10 +159,9 @@ p {
     align-items: center;
 }
 
-.project .bottom-section img {
-    width: 50px;
-    height: 50px;
+.project .bottom-section a {
     margin-right: 10px;
+    flex-shrink: 0;
 }
 
 .project .details {
@@ -171,24 +170,24 @@ p {
 
 .project .details p {
     margin: 0;
+    margin-left: 20px;
 }
-
 
 .img-github {
     background-image: url('../assets/icon/github.png');
-    width: 4vw;
-    height: 4vw;
     background-repeat: no-repeat;
     background-size: cover;
     margin-right: 10px;
+    width: 3.5vw;
+    height: 3.5vw;
 }
 
 .img-secret {
     background-image: url('../assets/icon/secret.png');
-    width: 3.5vw;
-    height: 3.5vw;
     background-repeat: no-repeat;
     background-size: cover;
     margin-right: 10px;
     margin-top: 5px;
+    width: 3vw;
+    height: 3vw;
 }
