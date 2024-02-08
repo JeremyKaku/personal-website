@@ -110,7 +110,7 @@ body {
 }
 
 
-@media only screen and (max-width: 725px) {
+@media only screen and (max-width: 768px) {
     .page-name {
         font-size: 3vw;
         margin-top: 20%;
@@ -122,6 +122,22 @@ body {
 
     .navbar-item:hover {
         font-size: 4vw;
+    }
+
+}
+
+@media only screen and (max-width: 425) {
+    .page-name {
+        font-size: 6vw;
+        margin-top: 20%;
+    }
+
+    .navbar-item {
+        font-size: 6vw;
+    }
+
+    .navbar-item:hover {
+        font-size: 8vw;
     }
 
 }
