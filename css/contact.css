@@ -61,3 +61,16 @@ a:active {
 .info-td {
     margin-left: 30px;
 }
+
+@media only screen and (max-width: 725px) {
+    .info-table {
+        font-size: 3vw;
+    }
+
+    .detail {
+        font-weight: bold;
+        font-size: 10vw;
+        color: white;
+    }
+
+}

@@ -108,3 +108,20 @@ body {
     visibility: visible;
     opacity: 0.8;
 }
+
+
+@media only screen and (max-width: 725px) {
+    .page-name {
+        font-size: 3vw;
+        margin-top: 20%;
+    }
+
+    .navbar-item {
+        font-size: 3vw;
+    }
+
+    .navbar-item:hover {
+        font-size: 4vw;
+    }
+
+}
