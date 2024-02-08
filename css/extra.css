@@ -1,187 +1,121 @@
-@font-face {
-    font-family: Centra;
-    src: url('../assets/font/CentraNo2-Bold.ttf');
-    font-weight: 700;
-}
-@font-face {
-    font-family: Centra;
-    src: url('../assets/font/CentraNo2-Medium.ttf');
-    font-weight: 500;
-}
-@font-face {
-    font-family: Centra;
-    src: url('../assets/font/CentraNo2-Book.ttf');
-    font-weight: 400;
-}
-body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    font-family: 'Centra', sans-serif !important;
-}
-.backGroundIMG {
-    box-sizing: border-box;
-    overflow: auto;
-    margin: 0;
-    /* padding: 4em; */
-    padding-left: 5%;
-    padding-right: 5%;
-    width: 100%;
-    height: 100vh;
-    background-image: url('../assets/img/banner-bg.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.navbar {
-    box-sizing: border-box;
-    top: 0;
-    left: 0;
-    /* padding: 5%; */
-    padding-top: 3%;
-    padding-left: 5%;
-    padding-right: 10%;
-    width: 100%;
-    overflow: hidden;
-    background-color: transparent;
-    position: fixed;
-    z-index: 1;
-    
-}
-.social-icon {
-    width: 40px;
-    height: 40px;
-    float: right;
-    border-radius: 50%;
-    border: 1px solid white;
-    padding: 5px;
-    margin-right: 10px;
-    transform: scale(0.8);
-}
-
-.social-icon img {
-    width: 40px;
-    height: 40px;
-    transform: scale(0.8);
-}
-  
-.navbarText {
-    color: #CCCCCC;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 25px;
-    text-decoration: none;
-    text-align: center;
-    border: 1px solid #31244b;
-    background-color: #31244b;
-    border-radius: 10px;
-    transition: all 0.5s ease;
-}
-.navbarText.active {
-    background-color: #5f55af;
-    color: white;
-}
-.navbarText:hover {
-    color: white;
-    font-size: 30px;
-}
-.navbarText::after {
-    content: attr(title);
-}
-.social-icon img:hover {
-    transform: rotate(-2deg);
-}
-.social-icon img::after {
-    content: attr(title);
-}
-
 .grid-container {
     display: grid;
     width: 100%;
     height: 100vh;
-    margin: 0;
+    margin-top: 5%;
     padding: 0;
     background-color: transparent;
     grid-gap: 1%;
     grid-column-gap: 1%;
-    grid-template-areas: 
-        "header header header"
-        "tag1 tag2 tag3"
-        "skill1 skill2 skill3"
-        "skill1 skill2 skill3";
-    
-    grid-template-rows:0.5fr 0.1fr 0.5fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "img1 img2 img3 img4 img5"
+        "img6 img7 img8 img9 img10"
+        "img11 img12 img13 img14 img15";
+    grid-template-rows: 0.1fr 0.1fr 0.1fr, 0.1fr, 0.1fr;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    text-align: center;
+    place-items: center;
 }
-.headerClass {
-    grid-area: header;
+
+.skills {
+    grid-area: skills;
     color: white;
-    margin-top: 10%;
+    margin-top: 8%;
     text-align: center;
     font-size: 1.5vw;
     background-color: transparent;
 }
-.headerClass h1 {
+
+.skills h1 {
     margin-bottom: 0;
 }
+
 h2 {
     color: white;
     margin-bottom: 0;
     text-align: center;
 }
+
 p {
     color: #CCCCCC;
 }
-.tag1 {
-    grid-area: tag1;
-    background-color: transparent;
-    
+
+.logo {
+    width: 7vw;
+    height: 7vw;
 }
-.tag2 {
-    grid-area: tag2;
-    background-color: transparent;
+
+.img1 {
+    grid-area: img1;
+    align-self: start;
 }
-.tag3 {
-    grid-area: tag3;
-    background-color: transparent;
+
+.img2 {
+    grid-area: img2;
+    align-self: start;
 }
-.skill1Class {
-    grid-area: skill1;
-    background-color: transparent;
-    background-image: url('../assets/img/meter1.svg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 70%;
-    border-radius: 5%;
-    opacity: 1;
-    transition: opacity 0.3s ease;
+
+.img3 {
+    grid-area: img3;
+    align-self: start;
 }
-.skill2Class {
-    grid-area: skill2;
-    background-color: transparent;
-    background-image: url('../assets/img/meter2.svg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 70%;
-    border-radius: 5%;
+
+.img4 {
+    grid-area: img4;
+    align-self: start;
 }
-.skill3Class {
-    grid-area: skill3;
-    background-color: transparent;
-    background-image: url('../assets/img/meter3.svg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 70%;
-    border-radius: 5%;
+
+.img5 {
+    grid-area: img5;
+    align-self: start;
 }
-.skill1Class:hover {
-    opacity: 0.5;
+
+.img6 {
+    grid-area: img6;
+    align-self: start;
 }
-.skill2Class:hover {
-    opacity: 0.5;
+
+.img7 {
+    grid-area: img7;
+    align-self: start;
 }
-.skill3Class:hover {
-    opacity: 0.5;
+
+.img8 {
+    grid-area: img8;
+    align-self: start;
+}
+
+.img9 {
+    grid-area: img9;
+    align-self: start;
+}
+
+.img10 {
+    grid-area: img10;
+    align-self: start;
+}
+
+.img11 {
+    grid-area: img11;
+    align-self: start;
+}
+
+.img12 {
+    grid-area: img12;
+    align-self: start;
+}
+
+.img13 {
+    grid-area: img13;
+    align-self: start;
+}
+
+.img14 {
+    grid-area: img14;
+    align-self: start;
+}
+
+.img15 {
+    grid-area: img15;
+    align-self: start;
 }
