@@ -4,45 +4,51 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact</title>
-    <link rel="stylesheet" href="contact.css" type="text/css">
+    <link rel="stylesheet" href="../css/common.css" type="text/css">
+    <link rel="stylesheet" href="../css/contact.css" type="text/css">
 </head>
 
-<body class="backGroundIMG">
+<body class="home-background">
     <div class="navbar">
-        <a class="navbarText" href="../" title="Home"></a>
-        <a class="navbarText" href="../project/" title="Projects"></a>
-        <a class="navbarText" href="../skill/" title="Skills"></a>
-        <a class="active navbarText" href="../contact/" title="Contact"></a>
-        <a class="social-icon" href="https://www.linkedin.com/in/xuehansherry/" target="_blank" title="LinkedIn"><img
-                src="../assets/img/nav-icon1.svg"></a>
-        <a class="social-icon" href="https://www.facebook.com/" target="_blank" title="Facebook"><img
-                src="../assets/img/nav-icon2.svg"></a>
-        <a class="social-icon" href="https://www.instagram.com/" target="_blank" title="Instagram"><img
-                src="../assets/img/nav-icon3.svg"></a>
+        <div class="nav-links">
+            <a class="navbar-item" href="../" title="Home"></a>
+            <a class="navbar-item" href="../project/" title="Projects"></a>
+            <a class="active navbar-item" href="../contact/" title="Contact"></a>
+            <a class="navbar-item" href="../extra/" title="Extra"></a>
+        </div>
+        <div class="tooltip">
+            <img src="../assets/img/my-photo.jpg" alt="Profile Image">
+            <span class="tooltiptext">Right!<br> This is Jing Guo!</span>
+        </div>
     </div>
 
+    <div class="page-name">
+        <h1>Contact Me</h1>
+        <p>Feel free to reach me out!</p>
+    </div>
     <div class="grid-container">
-        <div class="headerClass">
-            <h1>Contact Me</h1>
-            <p>Let's get in touch!</p>
-        </div>
+        <div class="info">
+            <table class="info-table">
+                <tr>
+                    <td class="detail"><a href="mailto:guo.jing2@northeastern.edu" target="_blank"><img
+                                src="../assets/icon/email.png" alt="Email Logo"></a></td>
 
-        <div class="bodyClass">
-            <table class="tableText">
-                <tr>
-                    <td class="tableHead">Email</td>
-                    <td>:</td>
-                    <td>han.xue2@northeastern.edu</td>
+                    <td info-td><a href="mailto:guo.jing2@northeastern.edu"
+                            target="_blank">guo.jing2@northeastern.edu</a></td>
                 </tr>
                 <tr>
-                    <td class="tableHead">Linkedin</td>
-                    <td>:</td>
-                    <td>https://www.linkedin.com/in/xuehansherry/</td>
+                    <td class="detail"><a href="https://linkedin.com/in/jing-guo-dev" target="_blank"><img
+                                src="../assets/icon/linkedin.png" alt="Linkedin Logo"></a></td>
+
+                    <td info-td><a href="https://linkedin.com/in/jing-guo-dev"
+                            target="_blank">www.linkedin.com/in/jing-guo-dev</a></td>
                 </tr>
                 <tr>
-                    <td class="tableHead">Github</td>
-                    <td>:</td>
-                    <td>https://github.com/YukiXueHan</td>
+                    <td class="detail"><a href="https://github.com/JeremyKaku" target="_blank"><img
+                                src="../assets/icon/github_info.png" alt="GitHub Logo"></a></td>
+
+                    <td info-td><a href="https://github.com/JeremyKaku"
+                            target="_blank">https://github.com/JeremyKaku</a></td>
                 </tr>
             </table>
         </div>

@@ -16,6 +16,14 @@ body {
     padding-right: 5%;
 }
 
+.page-name {
+    font-family: Centra;
+    font-size: 1.5vw;
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+}
+
 .navbar {
     display: flex;
     justify-content: flex-end;
