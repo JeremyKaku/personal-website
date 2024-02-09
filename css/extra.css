@@ -1,7 +1,6 @@
 .grid-container {
     display: grid;
     width: 100%;
-    /* height: 100vh; */
     margin-top: 5%;
     padding: 0;
     background-color: transparent;
@@ -11,7 +10,6 @@
         "img1 img2 img3 img4 img5"
         "img6 img7 img8 img9 img10"
         "img11 img12 img13 img14 img15";
-    /* grid-template-rows: 0.5fr 0.5fr 0.5fr, 0.5fr, 0.5fr; */
     grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
     text-align: center;
     place-items: center;
