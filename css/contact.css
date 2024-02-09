@@ -62,15 +62,22 @@ a:active {
     margin-left: 30px;
 }
 
-@media only screen and (max-width: 768px) {
+@media (min-width: 425px) and (max-width: 768px) {
     .info-table {
         font-size: 3vw;
     }
 
     .detail {
-        font-weight: bold;
         font-size: 10vw;
-        color: white;
+    }
+}
+
+@media (max-width: 425px) {
+    .info-table {
+        font-size: 4vw;
     }
 
+    .detail {
+        font-size: 12vw;
+    }
 }
